@@ -13,17 +13,12 @@ public class Student {
 	}
 
 
-	public void setStudentName(String studentName) {
+	public Student(String studentName, int age, String addr) {
+		super();
 		this.studentName = studentName;
-	}
-
-
-	public void setAge(String age) {
-		this.age = Integer.parseInt(age);
-	}
-
-
-	public void setAddr(String addr) {
+		this.age = age;
 		this.addr = addr;
 	}
+
+
 }

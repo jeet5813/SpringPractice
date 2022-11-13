@@ -7,9 +7,12 @@
 
     <!-- bean definitions here -->
     <bean id="student" class="dependecyInjection.com.Student" >
-    	<property name="studentName" value="Jitendra kumar"/>
-    	<property name="age" value ="20"/>
-    	<property name="addr" value="Delhi"/>
+    	<!-- property name="studentName" value="Jitendra kumar"/> -->
+    	<!--  property name="age" value ="20"/>-->
+    	<!--  property name="addr" value="Delhi"/>-->
+    	<constructor-arg name="studentName" value="Jitenra kumar"/>
+    	<constructor-arg name="age" value="24"/>
+    	<constructor-arg name="addr" value="Gorakhpur"/>
     	
     </bean>
     
