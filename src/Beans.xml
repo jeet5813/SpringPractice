@@ -8,6 +8,9 @@
     <!-- bean definitions here -->
     <bean id="student" class="dependecyInjection.com.Student" >
     	<property name="studentName" value="Jitendra kumar"/>
+    	<property name="age" value ="20"/>
+    	<property name="addr" value="Delhi"/ >
+    	
     </bean>
     
 </beans>
